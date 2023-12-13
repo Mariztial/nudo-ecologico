@@ -122,3 +122,9 @@ footer {
     grid-column-end: 4;
     
  }
+
+ #referencias a {
+    text-decoration: none; /* Elimina el subrayado por defecto */
+    border-bottom: 1px dashed #000; /* Añade un guión como borde inferior */
+    color: #000; /* Cambia el color del texto del enlace */
+  }
