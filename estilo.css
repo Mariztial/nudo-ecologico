@@ -32,7 +32,7 @@ h2, h3 {
 }
 
 /* Estilos de secciones específicas */
-#Imagina, #Pero, #Exito, #contaminacion, #impacto, #Solución, #conclusión, #futuro {
+#imagina, #Pero, #Tipos, #Exito, #contaminacion, #impacto, #Solución, #conclusión, #futuro, #referencias {
     max-width: 1000px;
     margin: 20px auto;
     padding: 20px;
@@ -71,9 +71,54 @@ footer {
     background-color: #1E8944;
     color: #fff;
     text-align: center;
-    padding: 5px;
+    padding: 1px;
     position: fixed;
     bottom: 0;
     width: 100%;
 }  
 
+/*apartados*/
+#apartados {
+    display: grid; 
+ 
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    gap: 2px;
+    height: 100%;
+    max-width: 1000px;
+ margin: 20px auto;
+ padding: 20px;
+    
+ }
+
+ #imagina-arriba {
+
+    background-color: #fff; 
+    grid-row-start: 1;
+    grid-column-start: 1;
+ 
+    grid-row-end: 2;
+    grid-column-end: 2;
+    
+ }
+ #imagina-abajo {
+ 
+    background-color: #fff; 
+    grid-row-start: 2;
+    grid-column-start: 1;
+ 
+    grid-row-end: 3;
+    grid-column-end: 2;
+    
+ }
+ #imagina {
+ 
+    background-color: #fff; 
+    grid-row-start: 1;
+    grid-column-start: 2;
+ 
+    grid-row-end: 3;
+    grid-column-end: 4;
+    
+ }
